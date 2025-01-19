@@ -1,4 +1,4 @@
-ART Finder - Automated Research and Trigger Finder
+#ART Finder - Automated Research and Trigger Finder
 ART Finder is a tool designed to streamline the research phase of ad creation by automating data gathering and analysis from various sources such as Google, YouTube, Reddit, Quora, and app reviews. It helps marketers identify user pain points, analyze competitor ads, and generate actionable insights for crafting effective and user-centric ads.
 
 Table of Contents
@@ -80,29 +80,6 @@ Cheerio: For web scraping (for platforms like Google, Reddit, etc.).
 Sentiment Analysis: To analyze the sentiment of user reviews and feedback.
 Chart.js: For visualizing data (word clouds, graphs).
 CSS / Tailwind CSS: For styling the application.
-Folder Structure
-Here is a breakdown of the folder structure for the project:
-
-
-ART-Finder/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── assets/             # Images, icons, etc.
-│   ├── components/         # React components (e.g., Dashboard, SearchForm, Insights)
-│   ├── services/           # API calls and data scraping logic
-│   ├── pages/              # Different pages (Home, Insights, Dashboard)
-│   ├── App.tsx             # Main React component
-│   ├── index.css           # Global CSS styles
-│   └── index.tsx           # Main entry point for React app
-├── .env                    # Environment variables (e.g., API keys)
-├── .gitignore              # Files to ignore in Git
-├── package.json            # NPM dependencies and scripts
-├── tailwind.config.js      # Tailwind CSS configuration
-└── vite.config.ts          # Vite build and configuration settings
-Contributing
-If you'd like to contribute to this project, follow these steps:
 
 
 
