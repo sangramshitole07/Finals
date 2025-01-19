@@ -31,39 +31,31 @@ To set up and run ART Finder locally, follow these steps:
 
 Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ART-Finder.git
+git clone https://github.com/sangramshitole07/ART-Finder.git
+
 Navigate to the project directory:
 
-bash
-Copy
-Edit
+
 cd ART-Finder
+
 Install dependencies:
 
 If you don't have npm installed, you can install it from here. Then, run:
 
-bash
-Copy
-Edit
+
 npm install
+
 Set up environment variables (if applicable):
 
 Ensure that you create an .env file in the root of the project and add any necessary API keys or configuration variables (such as for scraping or sentiment analysis APIs).
 
 Example:
 
-env
-Copy
-Edit
+
 REACT_APP_API_KEY=your-api-key
 Start the development server:
 
-bash
-Copy
-Edit
+
 npm run dev
 Open the app:
 
@@ -91,9 +83,7 @@ CSS / Tailwind CSS: For styling the application.
 Folder Structure
 Here is a breakdown of the folder structure for the project:
 
-bash
-Copy
-Edit
+
 ART-Finder/
 ├── public/
 │   ├── index.html
@@ -114,10 +104,6 @@ ART-Finder/
 Contributing
 If you'd like to contribute to this project, follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Make your changes and commit them (git commit -m 'Add feature-name').
-Push to the branch (git push origin feature-name).
-Open a pull request with a description of your changes.
+
 
 
