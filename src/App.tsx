@@ -93,8 +93,7 @@ function App() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization:
-            'Bearer AstraCS:HOPoUYgAaGhTeZwryRQOArbf:fe2c4cb68685276749eb1825ab4a028d5f4188f22b2d5595097510ebe69529bc',
+          Authorization: `Bearer ${process.env.REACT_APP_API_TOKEN}`,
         },
         body: JSON.stringify({
           input_value: userMessage.content,
